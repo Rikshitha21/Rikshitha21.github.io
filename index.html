@@ -1,15 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rikshitha Chandaraju — ML Enthusiast</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
 
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is a simple test portfolio. More content coming soon!</p>
+<body>
+  <div class="container">
+
+    <header class="hero">
+      <div>
+        <h1>Rikshitha Chandaraju</h1>
+        <p class="tagline">Machine Learning Enthusiast | AI & IoT Developer</p>
+
+        <div class="contact">
+          <p>📞 7671068346</p>
+          <p>📧 <a href="mailto:chandarajurikshitha@gmail.com">chandarajurikshitha@gmail.com</a></p>
+        </div>
+
+        <div class="social">
+          <a href="https://www.linkedin.com/in/chandaraju-rikshitha-6424952a" target="_blank">LinkedIn</a>
+          <a href="https://github.com/Rikshitha21" target="_blank">GitHub</a>
+        </div>
+
+        <p class="summary">
+          A motivated and skilled Computer Science student specializing in Machine Learning, IoT, and AI-based projects.
+          Passionate about developing intelligent systems and data-driven solutions.
+        </p>
+      </div>
+
+      <div class="side card">
+        <h3>Technical Skills</h3>
+        <ul>
+          <li>Python</li>
+          <li>C, Java</li>
+          <li>TensorFlow, Keras, PyTorch</li>
+          <li>Streamlit</li>
+          <li>Machine Learning</li>
+          <li>Deep Learning</li>
+          <li>NLP, Data Science</li>
+          <li>SQL</li>
+          <li>HTML, CSS</li>
+          <li>Pandas, NumPy, Sklearn</li>
+          <li>Jupyter Notebook, VS Code, Git</li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Education</h2>
+        <p>
+          <strong>B.Tech — Artificial Intelligence & Machine Learning</strong><br>
+          University College of Engineering & Technology for Women, Kakatiya University<br>
+          Warangal, Telangana, India<br>
+          <em>Nov 2022 — Present</em>
+        </p>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+
+        <div class="project">
+          <h3>AI-Driven Crop Disease Prediction and Management System</h3>
+          <p class="meta">Python • TensorFlow • OpenCV • Flask</p>
+          <p>Built an IoT-integrated system to predict crop diseases and assist farmers with preventive actions.</p>
+          <p><a href="https://github.com/Rikshitha21/ai_crop_disease_prediction" target="_blank">View on GitHub</a></p>
+        </div>
+
+        <div class="project">
+          <h3>Streamlit Login & Welcome Dashboard</h3>
+          <p class="meta">Python • Streamlit</p>
+          <p>Developed a secure login system using Streamlit with session state and multi-page navigation.</p>
+        </div>
+
+        <div class="project">
+          <h3>Excel-Based Sales Analytics Dashboard</h3>
+          <p class="meta">Excel • Pivot Tables • Data Visualization</p>
+          <p>Created a dynamic dashboard to analyze sales trends and automate reporting.</p>
+          <p><a href="https://github.com/Rikshitha21/Excel-Based-Sales-Analytics-Dashboard" target="_blank">View on GitHub</a></p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Awards</h2>
+        <p><strong>Winter Internship — NITW</strong> (Nov 2024)</p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:chandarajurikshitha@gmail.com">chandarajurikshitha@gmail.com</a></p>
+        <p>Phone: 7671068346</p>
+        <p>Location: Warangal, Telangana</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Rikshitha Chandaraju — Portfolio</p>
+    </footer>
+
+  </div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
